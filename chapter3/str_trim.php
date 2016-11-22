@@ -112,8 +112,3 @@ var_dump ( strcmp ( $str1, $str2 ) );
 <?php
 var_dump ( strcmp ( $str2, $str1 ) );
 ?>
-
-
-
-
-
