@@ -3,20 +3,20 @@ $text = 'abcde';
 print strpos ( $text, 'b' ); // 1
 ?>
 
-<br /><br />
+<br><br>
 
 <?php
 if ( strpos ( $text, 'b' ) >= 0 )
 	print 'Find b.';
 ?>
 
-<br /><br />
+<br><br>
 
 <?php
 print strpos ( $text, 'a' ); // 0
 ?>
 
-<br /><br />
+<br><br>
 
 <?php
 if ( strpos ( $text, 'a' ) ) // does not work.
@@ -26,7 +26,7 @@ if ( strpos ( $text, 'f' ) === false )
 	print 'Do not find f.';
 ?>
 
-<br /><br />
+<br><br>
 
 <?php
 if ( strpos ( $text, 'a', 1 ) === false )
@@ -36,7 +36,7 @@ if ( false === strpos ( $text, 'a', -1 ) ) // warning.
 	print 'Hello world.';
 ?>
 
-<br /><br />
+<br><br>
 
 <?php
 // stripos is case-insensitive.

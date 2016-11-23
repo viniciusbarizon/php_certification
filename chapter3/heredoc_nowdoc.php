@@ -7,7 +7,7 @@ MYTEXT;
 echo $nowdoc;
 ?>
 
-<br /><br />
+<br><br>
 
 <?php
 // HEREDOC
